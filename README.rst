@@ -15,6 +15,6 @@ App Initialization
 ------------------
 
 Go to ldapflask/__init__.py and customize settings for your environment.  You
-probably also need to change ldapflask/auth/views.py and make the LDAP path 
-reflect your specific environment.
+probably also need to change try_login() in ldapflask/auth/models.py and 
+make the LDAP path reflect your specific environment.
 
